@@ -3,7 +3,7 @@
 App is divided into two parts:
 
 * `yarn start` will start the React JS front-end.
-* `go run server.go` will start the Go back-end.
+* `go run Serve.go` will start the Go back-end.
 
 ## Packages
 For React :
@@ -24,6 +24,15 @@ For Go :
  * `sessionauth` : Can be found at https://github.com/martini-contrib/render
  * `sessions` : Can be found at https://github.com/martini-contrib/sessions
  * `go-sqlite3` : Can be found at https://github.com/mattn/go-sqlite3
+
+## Installation
+1. `cd go`
+2. `go install`
+3. `go run Serve.go`
+Open a new window
+4. `cd react`
+5. `yarn install`
+6. `yarn start`
 
 ## To Use
 First, sign up with a username and password and choose a role for yourself, typing `admin` in the role will grant the user admin privileges, anything else will give normal privileges.
